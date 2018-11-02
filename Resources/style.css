@@ -65,12 +65,56 @@ header {
 
 .featured-tea {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 1000px;
+  padding-left: 100px;
+  padding-right: 100px;
 
 }
 
 .tea-banner {
   display: flex;
   flex-direction: column;
-width: 1200px;
+  text-align: center;
+}
+
+.tea-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: 10px 100px;
+}
+.img-content {
+  display: flex;
+  justify-content: center;
+}
+
+/* Tea of the Month Images */
+.berry {
+  margin: 5px;
+}
+
+.rum {
+  margin: 5px;
+}
+
+.donuts {
+  margin: 5px;
+}
+
+.myrtle {
+  margin: 5px;
+}
+
+.bizarre {
+  margin: 5px;
+}
+
+.locations {
+  background-image: url(images/img-locations-background.jpg);
+  margin-top: 120px;
+  width: 1200px;
+  height: 500px;
 }
