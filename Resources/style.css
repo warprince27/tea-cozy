@@ -114,7 +114,8 @@ header {
 }
 
 .locations-boxes {
-  margin:auto;
+  margin:0 auto 0 auto;
+    opacity: 1;
 
 }
 .downtown {
@@ -146,7 +147,17 @@ header {
   margin-left: 40px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
 footer {
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
   text-align: left;
 }
