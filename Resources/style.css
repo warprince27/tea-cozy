@@ -35,28 +35,31 @@ header {
   padding-right: 40px;
 }
 
+
 /* content container */
 .content {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  margin: 0 auto 80px auto;
+  width: 1248px;
 }
 
 /* Mission section */
 
 .our-mission {
   background-image: url(images/img-mission-background.jpg);
-  width: 100%;
+  width: 1248px;
   height: 700px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+  margin-top: 70px;
 }
 
 .mission-banner {
   text-align: center;
   background-color: black;
   height: 100px;
-  Width: 100%;
+  width: 1248px;
   margin-top: 300px;
 }
 
@@ -66,7 +69,7 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  width: 100%;
+  width: 1248px;
 }
 
 .tea-banner {
@@ -77,48 +80,49 @@ header {
 
 .tea-images {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-    margin: 5px;
+  margin-top: 5px;
 }
 
 .tea-images-2 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  margin: 5px;
 }
 .img-content {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+.myrtle .img-content {
+  margin-bottom: 80px;
+}
 /* location */
 .locations {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 500px;
+  width: 1248px;
+  height: 700px;
   background-image: url(images/img-locations-background.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 
 .locations-header {
-  width: 100%;
+  width: 1248px;
   height: 100px;
   margin-top: 20px;
   text-align: center;
 }
 
 .locations-boxes {
+  line-height: 38px;
   margin:0 auto 0 auto;
-    opacity: 1;
+  opacity: 1;
 
 }
-.downtown {
+.locations-boxes .downtown, .east-bayside, .oakdale {
   display: inline-flex;
   flex-direction: column;
   text-align: center;
@@ -127,23 +131,7 @@ header {
   height: 300px;
 }
 
-.east-bayside {
-  display: inline-flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: black;
-  width: 300px;
-  height: 300px;
-  margin-left: 40px;
-}
-
-.oakdale {
-  display: inline-flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: black;
-  width: 300px;
-  height: 300px;
+.east-bayside, .oakdale {
   margin-left: 40px;
 }
 
@@ -153,11 +141,14 @@ header {
   text-align: center;
   height: 200px;
   margin-bottom: 50px;
+  margin-top: -120px;
+  background-color: black;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  margin-bottom: 20px;
   text-align: left;
 }
